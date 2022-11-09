@@ -9,7 +9,7 @@
             padding-bottom: 2px;
             padding-left: 30px;
             padding-right: 27px;
-            border: 7px solid black;
+            border: 9px solid black;
             border-top-left-radius: 12px;
             border-bottom-right-radius: 12px;
             border-bottom-left-radius: 50px;
