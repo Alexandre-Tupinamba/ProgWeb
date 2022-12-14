@@ -1,0 +1,12 @@
+hoisting é usado para levar todas as variaveis para o inicio
+do código, antes das funçoes serem chamadas, dessa modo, podemos
+chamar uma função antes da declaração de uma variavél.
+Isso pode afetar a interpretação do código pois podemos ver uma função
+chamando uma variavel que ainda não foi declarada, como, por exemplo:
+
+
+console.log(a);
+
+a = "inteiro";
+
+esse tipo de operação acima é permitida no JavaScript.

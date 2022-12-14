@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #vermelho {
+            background-color: red;
+            width: 300px;
+            height: 300px;
+            position:absolute;
+            top: 0cm;
+        }
+        #verde {
+            background-color: green;
+            width: 200px;
+            height: 200px;
+            position:absolute;
+            top: 0cm;
+        }
+        #azul {
+            background-color: blue;
+            width: 100px;
+            height: 100px;
+            position:absolute;
+            top: 0cm;
+        }
+    </style>
+</head>
+<body>
+    <div id = "vermelho"> </div>
+    <div id = "verde"> </div>
+    <div id = "azul"> </div>
+</body>
+</html>

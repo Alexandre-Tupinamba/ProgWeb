@@ -1,0 +1,37 @@
+1) erro : no <style> da linha 9 a linha 13,do head, a sintaxe está equivocada
+"
+<style>
+ background-color {
+ #para: blue;
+ }
+</style>
+"
+o correto seria chamar o id primeiro e depois das chaves mudar o background-color.
+dessa forma:
+
+<style>
+ #para {
+ background-color: blue;
+ }
+</style>
+
+2)
+na linha 24 e 33 está descrito um script javacript, sendo assim, a forma
+correta de embacar esse código seria com tags <script> </script>.
+Dessa forma:
+
+<script>
+ (function() {
+var instituto = {
+nome: "Instituto de Computação",
+getNome: function () {
+ return that.nome;
+}
+ }
+ })();
+</script>
+
+3)na linha 15, antes do <h1> e na linha antes de fechar o <html>
+deveria ter uma tag <body></body> indentidficando que começou o body da página.
+
+4)na linha 29 o argumento correto seira this.nome, e nao that.nome,como está definido
