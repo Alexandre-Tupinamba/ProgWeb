@@ -1,3 +1,6 @@
+Todos os seletores foram identificados corretamente
+Nota: 2.0
+
 1. podemos utilizar o seletor para selecionar para selecionar o span, como só temos ele na pagina inteira : span{ }
 2. podemos utilizar o seletor de parentesco, para selecionar os filhos de p, que no caso será o <span>: p > span.
 3. podemos utilizar o seletor para selecionar os elementos cujo o title sejam = a css.

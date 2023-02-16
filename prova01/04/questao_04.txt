@@ -1,3 +1,7 @@
+Conceito de hoisting parcialmente correto. As declarações são levadas para o início do escopo, não do código.
+Exemplo de código correto.
+Nota: 1.5
+
 hoisting é usado para levar todas as variaveis para o inicio
 do código, antes das funçoes serem chamadas, dessa modo, podemos
 chamar uma função antes da declaração de uma variavél.

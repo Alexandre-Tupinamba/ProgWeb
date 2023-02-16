@@ -1,3 +1,6 @@
+Todos os erros foram encontrados corretamente.
+Nota 2.0
+
 1) erro : no <style> da linha 9 a linha 13,do head, a sintaxe está equivocada
 "
 <style>
