@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .barra-pai{
+            display: flex;
+            flex-wrap: wrap-reverse;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Um Gráfico de Barras</h1>
+    <form name="myForm">
+        <div>
+            informe a altura das barras:
+            <input name="Valor1" type="text" placeholder="10" size="10px">
+            <input name="Valor2" type="text" placeholder="10" size="10px">
+            <input name="Valor3" type="text" placeholder="10" size="10px">
+            <input name="Valor4" type="text" placeholder="10" size="10px">
+            <input name="Valor5" type="text" placeholder="10" size="10px">
+        <br>
+        </div>
+        <div>
+            informe a largura das barras:
+            <input name="myInput" type="text" placeholder="10" size="10px"> 
+        </div>
+    </form>
+    <br>
+    <button id="botao">Desenhar o gráfico</button>
+    <div class="barra-pai">
+        <div class="barras"></div>
+        <div class="barras"></div>
+        <div class="barras"></div>
+        <div class="barras"></div>
+        <div class="barras"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
